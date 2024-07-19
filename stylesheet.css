@@ -3,7 +3,7 @@ html {
     padding: 0;
 }
 body {
-    font-family: 'Handlee', cursive;
+   font-family: 'Lato', sans-serif; cursive;
     font-size: 13pt;
     background-color: #efefef;
     padding: 10px;
@@ -17,7 +17,7 @@ h1 {
     margin: 0 0 10px 0;
 }
 h1 span {
-    border: 4px dashed #FFD502;
+    border:1px  #FFD502;
     padding: 10px;
 }
 p {
@@ -26,7 +26,7 @@ p {
 }
 .img-circle {
     border: 3px solid white;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 .section {
     background-color: #fff;
@@ -74,6 +74,8 @@ table, th, td {
 li {
     margin-bottom: 15px;
     font-weight: bold;
+      color: #393E46;
+
 }
 progress {
     width: 70%;
@@ -119,9 +121,7 @@ form {
 .submit:hover {
     background-color: #FFD502;
 }
-textarea {
-    height: 100px;
-}
+
 input, textarea {
     margin-bottom: 10px;
     font-size: 11pt;
@@ -133,6 +133,10 @@ input, textarea {
     width: 70%;
     outline: none;
 }
+textarea {
+    height: 80px;
+}
+
 .face {
     transform: scale(0.4);
     margin: 0 auto;
@@ -161,4 +165,3 @@ input, textarea {
     padding-bottom: 10px;
     color: grey;
 }
-
